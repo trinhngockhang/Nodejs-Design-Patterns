@@ -101,7 +101,7 @@ Vậy nên chúng ta cần wrap profiler trên lại trong một factory và cus
 ```
 Factory trừu tượng hoá việc tạo ra profiler
 - Nếu là môi trường develop, ta trả về object Profiler bình thường.
-- Nếu là môi trường Production, ta trả về object với 2 hàm start() và end() customzie tuỳ theo ta xử lý.
+- Nếu là môi trường Production, ta trả về object với 2 hàm start() và end() customize tuỳ theo ta xử lý.
 
 Giờ tạo file profilerTest.js để test như sau:
 
